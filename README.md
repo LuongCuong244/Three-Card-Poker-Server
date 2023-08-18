@@ -1,6 +1,6 @@
-# ThreeCardPokerServer
+# Three Card Poker Server
 
-ThreeCardPokerServer is a server application responsible for handling requests from the [ThreeCardPoker](https://github.com/LuongCuong244/Three-Card-Poker-Client) game. It provides the necessary backend functionalities to support the multiplayer gameplay experience.
+Three Card Poker Server is a server application responsible for handling requests from the [Three Card Poker](https://github.com/LuongCuong244/Three-Card-Poker-Client) game. It provides the necessary backend functionalities to support the multiplayer gameplay experience.
 
 ## Features
 #### 1. User Authentication
@@ -24,7 +24,10 @@ ThreeCardPokerServer is a server application responsible for handling requests f
 - Ensures data integrity and allows for the seamless continuation of games.
 
 ## Dependencies
-
+- [Nodejs](https://nodejs.org/en/docs) : A JavaScript runtime environment for server-side development.
+- [Express](https://expressjs.com/) : A fast and minimalist web application framework for Node.js.
+- [Socket.IO](https://socket.io/docs/v4/server-api/) : Enables real-time communication between the server and clients.
+- [MongoDB](https://www.mongodb.com/docs/) : A flexible and scalable document-oriented database for storing and managing game-related data.
 
 ## Client
 - The source code of the client application is shared [here](https://github.com/LuongCuong244/Three-Card-Poker-Client).
